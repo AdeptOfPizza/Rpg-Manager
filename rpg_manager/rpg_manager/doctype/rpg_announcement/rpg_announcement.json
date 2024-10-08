@@ -1,0 +1,229 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2024-09-29 10:42:17.249665",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "general_info_section",
+  "game_master",
+  "system",
+  "genre",
+  "column_break_whyq",
+  "time_zone",
+  "length_of_campaign",
+  "player_count",
+  "section_break_chhy",
+  "current_players",
+  "column_break_plkf",
+  "status1",
+  "section_break_deix",
+  "description",
+  "social_contract",
+  "technical_info_section",
+  "date_of_the_start",
+  "session_starting_time",
+  "expected_session_length",
+  "column_break_jkqi",
+  "platform",
+  "technical_tools"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_info_section",
+   "fieldtype": "Section Break",
+   "label": "General Info"
+  },
+  {
+   "fieldname": "game_master",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Game Master",
+   "options": "Rpg Player",
+   "reqd": 1
+  },
+  {
+   "fieldname": "system",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "System",
+   "options": "Rpg System",
+   "reqd": 1
+  },
+  {
+   "fieldname": "genre",
+   "fieldtype": "Table MultiSelect",
+   "label": "Genre",
+   "options": "System Focus",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_whyq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "time_zone",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Time Zone",
+   "options": "UTC-11\nUTC-10\nUTC-9\nUTC-8\nUTC-7\nUTC-6\nUTC-5\nUTC-4\nUTC-3\nUTC-2\nUTC-1\nUTC+0\nUTC+1\nUTC+2\nUTC+3 (\u041c\u043e\u0441\u043a\u0432\u0430)\nUTC+4\nUTC+5\nUTC+6\nUTC+7 (\u041d\u043e\u0432\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a)\nUTC+8\nUTC+9\nUTC+10\nUTC+11\nUTC+12 (\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "length_of_campaign",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Length of campaign",
+   "options": "One-shot (1 session)\nMini-campaign (2-4 sessions)\nModerate campaign (5-10 sessions)\nLong campaign (11-20 sessions)\n...Even longer\nCannot predict",
+   "reqd": 1
+  },
+  {
+   "fieldname": "technical_info_section",
+   "fieldtype": "Section Break",
+   "label": "Technical Info"
+  },
+  {
+   "fieldname": "date_of_the_start",
+   "fieldtype": "Date",
+   "label": "Date of the start",
+   "reqd": 1
+  },
+  {
+   "fieldname": "session_starting_time",
+   "fieldtype": "Time",
+   "label": "Session Starting Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "expected_session_length",
+   "fieldtype": "Duration",
+   "hide_days": 1,
+   "hide_seconds": 1,
+   "label": "Expected Session Length",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_jkqi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "platform",
+   "fieldtype": "Select",
+   "label": "Platform",
+   "options": "Discord (No table)\nFoundryVTT\nRoll20\nOwlbear Rodeo\nTableTop Simulator\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_deix",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Short description of your game. 5 \"W\". Who are characters?\nWhat is their goal? Why do they want it? Where and When does it happen?",
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Game Description"
+  },
+  {
+   "description": "An agreement on how the group will play and interact during the game.",
+   "fieldname": "social_contract",
+   "fieldtype": "Small Text",
+   "label": "Social Contract"
+  },
+  {
+   "fieldname": "technical_tools",
+   "fieldtype": "Table MultiSelect",
+   "label": "Technical Tools",
+   "options": "Game Tool",
+   "reqd": 1
+  },
+  {
+   "description": "write down a number (like \"4\") ir an interval (like \"3-5\")",
+   "fieldname": "player_count",
+   "fieldtype": "Data",
+   "label": "Player Count",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_chhy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "current_players",
+   "fieldtype": "Table MultiSelect",
+   "label": "Current players",
+   "options": "Game Player"
+  },
+  {
+   "fieldname": "column_break_plkf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "status1",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-08 10:29:17.061551",
+ "modified_by": "Administrator",
+ "module": "Rpg Manager",
+ "name": "Rpg Announcement",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Rpg Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "if_owner": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Rpg Player",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Rpg Player",
+   "select": 1,
+   "share": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

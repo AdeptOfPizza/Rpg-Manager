@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-25 18:07:02.898990",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "last_name",
+  "nickname",
+  "column_break_mfhw",
+  "timezone",
+  "section_break_uheb",
+  "favorite_genre",
+  "column_break_kpev",
+  "favorite_system"
+ ],
+ "fields": [
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "nickname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nickname"
+  },
+  {
+   "fieldname": "timezone",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Timezone",
+   "options": "UTC-11\nUTC-10\nUTC-9\nUTC-8\nUTC-7\nUTC-6\nUTC-5\nUTC-4\nUTC-3\nUTC-2\nUTC-1\nUTC+0\nUTC+1\nUTC+2\nUTC+3 (\u041c\u043e\u0441\u043a\u0432\u0430)\nUTC+4\nUTC+5\nUTC+6\nUTC+7 (\u041d\u043e\u0432\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a)\nUTC+8\nUTC+9\nUTC+10\nUTC+11\nUTC+12 (\u041a\u0430\u043c\u0447\u0430\u0442\u043a\u0430)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_uheb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "favorite_genre",
+   "fieldtype": "Table MultiSelect",
+   "label": "Favorite genre",
+   "options": "System Focus"
+  },
+  {
+   "fieldname": "column_break_kpev",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "favorite_system",
+   "fieldtype": "Table MultiSelect",
+   "label": "Favorite system",
+   "options": "Player System"
+  },
+  {
+   "fieldname": "column_break_mfhw",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-03 12:55:07.630033",
+ "modified_by": "Administrator",
+ "module": "Rpg Manager",
+ "name": "Rpg Player",
+ "naming_rule": "By script",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Rpg Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Rpg Player",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "if_owner": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Rpg Player",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

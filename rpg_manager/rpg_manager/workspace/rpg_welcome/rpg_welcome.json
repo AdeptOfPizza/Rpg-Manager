@@ -1,0 +1,93 @@
+{
+ "app": "rpg_manager",
+ "charts": [],
+ "content": "[{\"id\":\"xNnmehhv-P\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Find new adventures, friends and experiences here!<br></span>\",\"col\":12}},{\"id\":\"quFdK-qpO9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create your player profile:\",\"col\":6}},{\"id\":\"nnfzR7agRb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create your own announcement:\",\"col\":6}},{\"id\":\"Bgl0rMJ9CJ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"1l6wvCCBu3\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Players\",\"col\":4}},{\"id\":\"Ajxpzg3OLs\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Active announcements\",\"col\":4}},{\"id\":\"xeopJQOh4K\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Active games\",\"col\":4}},{\"id\":\"yzYTmXzzZj\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"UNwrzFyS3k\",\"type\":\"card\",\"data\":{\"card_name\":\"Relevant info:\",\"col\":4}},{\"id\":\"zt7v9K5tMY\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "creation": "2024-10-02 18:25:17.023768",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "share",
+ "idx": 8,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Rpg-Welcome",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Relevant info:",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "TTRPG Systems",
+   "link_count": 0,
+   "link_to": "Rpg System",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "TTRPG Genres",
+   "link_count": 0,
+   "link_to": "Rpg Game Focus",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-10-03 13:50:15.326748",
+ "modified_by": "Administrator",
+ "module": "Rpg Manager",
+ "name": "Rpg-Welcome",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "Rpg-Welcome",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Rpg Player",
+   "label": "Players",
+   "quick_list_filter": "[]"
+  },
+  {
+   "document_type": "Rpg Game",
+   "label": "Active games",
+   "quick_list_filter": "[]"
+  },
+  {
+   "document_type": "Rpg Announcement",
+   "label": "Active announcements",
+   "quick_list_filter": "[[\"Rpg Announcement\",\"status1\",\"=\",\"Announced\",false]]"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create your player profile:",
+   "link_to": "Rpg Player",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create your own announcement:",
+   "link_to": "Rpg Announcement",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Rpg-Welcome"
+}

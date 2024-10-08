@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{announcement}",
+ "creation": "2024-09-30 10:42:22.058617",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "announcement",
+  "sessions_played",
+  "next_session",
+  "column_break_fvnt",
+  "players"
+ ],
+ "fields": [
+  {
+   "fieldname": "announcement",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Announcement",
+   "options": "Rpg Announcement",
+   "reqd": 1
+  },
+  {
+   "fieldname": "next_session",
+   "fieldtype": "Datetime",
+   "label": "Next Session"
+  },
+  {
+   "fieldname": "sessions_played",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "sessions played"
+  },
+  {
+   "fieldname": "column_break_fvnt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "players",
+   "fieldtype": "Table MultiSelect",
+   "label": "Players",
+   "options": "Game Player"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-01 12:37:01.280932",
+ "modified_by": "Administrator",
+ "module": "Rpg Manager",
+ "name": "Rpg Game",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
