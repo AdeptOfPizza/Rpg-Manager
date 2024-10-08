@@ -1,0 +1,104 @@
+[
+ {
+  "description": "DnD5e is a system about a party of heroes embarking on fantasy adventures, overcoming incredible challenges through tough battles and wit, and changing the world around them. Immerse yourself in the world of the most popular TTRPG!\"",
+  "docstatus": 0,
+  "doctype": "Rpg System",
+  "game_focus": [
+   {
+    "system_tag": "Epic"
+   },
+   {
+    "system_tag": "Dungeon-crawl"
+   },
+   {
+    "system_tag": "Action"
+   }
+  ],
+  "modified": "2024-09-30 11:06:42.355170",
+  "name": "DnD5e",
+  "name1": "DnD5e",
+  "publisher": "Wizards of the Coast",
+  "publishing_year": 2014
+ },
+ {
+  "description": "Strike! describes itself on the cover as 'tactical combat and headless adventure', and that's exactly what Strike! is all about. Dive into deep grid-based tactical gameplay with flashy abilities and no unnecessary numbers, and enjoy the simplicity and fun in between!",
+  "docstatus": 0,
+  "doctype": "Rpg System",
+  "game_focus": [
+   {
+    "system_tag": "Action"
+   }
+  ],
+  "modified": "2024-09-30 11:26:27.189189",
+  "name": "Strike!",
+  "name1": "Strike!",
+  "publisher": "none",
+  "publishing_year": 2016
+ },
+ {
+  "description": "Pathfinder 2e is a system about a party of heroes embarking on fantasy adventures, overcoming incredible challenges through tough battles and wit, and changing the world around them. Its extensive customization options allow you to perfectly bring your unique character to life, while continuous support from the developers with new books and updates keeps the game fresh and relevant!",
+  "docstatus": 0,
+  "doctype": "Rpg System",
+  "game_focus": [
+   {
+    "system_tag": "Epic"
+   },
+   {
+    "system_tag": "Dungeon-crawl"
+   },
+   {
+    "system_tag": "Action"
+   }
+  ],
+  "modified": "2024-09-30 11:11:06.096753",
+  "name": "Pathfinder2e",
+  "name1": "Pathfinder2e",
+  "publisher": "Paizo",
+  "publishing_year": 2018
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Rpg System",
+  "game_focus": [
+   {
+    "system_tag": "Drama"
+   },
+   {
+    "system_tag": "Action"
+   },
+   {
+    "system_tag": "Romance"
+   },
+   {
+    "system_tag": "Co-creation"
+   }
+  ],
+  "modified": "2024-09-30 11:33:31.369103",
+  "name": "Masks! The New Generation",
+  "name1": "Masks! The New Generation",
+  "publisher": "Magpie games",
+  "publishing_year": 2018
+ },
+ {
+  "description": "Fate Core is a light-weight toolkit designed for running eventful, dramatic games. The system's tools allow players to shape the story together with the Game Master, leading to unforgettable situations and adventures!\n",
+  "docstatus": 0,
+  "doctype": "Rpg System",
+  "game_focus": [
+   {
+    "system_tag": "Drama"
+   },
+   {
+    "system_tag": "Action"
+   },
+   {
+    "system_tag": "Co-creation"
+   }
+  ],
+  "modified": "2024-09-30 11:02:47.616006",
+  "name": "FATE Core",
+  "name1": "FATE Core",
+  "publisher": "Evil Hat",
+  "publishing_year": 2013
+ }
+]

@@ -24,22 +24,4 @@ class RpgAnnouncement(Document):
             })
             new_game.insert()
 
-    def on_delete(self):
-            frappe.msgprint('перед удалением!')
-
-    def before_delete(self):
-        # Показываем сообщение о запуске метода
-        frappe.msgprint(f"Triggered before_delete for {self.name}")
-        
-        # Получаем все связанные игры, которые ссылаются на данный анонс
-        related_games = frappe.get_all("Rpg Game", filters={"announcement": self.name}, fields=["name"])
-        
-        # Показываем сообщение с количеством найденных связанных игр
-        frappe.msgprint(f"Related games found: {len(related_games)}")
-        
-        # Удаляем связанные игры
-        for game in related_games:
-            frappe.msgprint(f"Deleting game: {game['name']}")
-            frappe.delete_doc("Rpg Game", game['name'], force=True)
-
 

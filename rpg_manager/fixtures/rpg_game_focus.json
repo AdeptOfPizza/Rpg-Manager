@@ -1,0 +1,98 @@
+[
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Rpg Game Focus",
+  "modified": "2024-09-30 10:53:50.227224",
+  "name": "Comedy",
+  "tag": "Comedy"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Rpg Game Focus",
+  "modified": "2024-09-30 10:54:26.719470",
+  "name": "Tragedy",
+  "tag": "Tragedy"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Rpg Game Focus",
+  "modified": "2024-09-30 10:54:36.346552",
+  "name": "Sandbox",
+  "tag": "Sandbox"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Rpg Game Focus",
+  "modified": "2024-09-30 10:55:43.402765",
+  "name": "Point-crawl",
+  "tag": "Point-crawl"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Rpg Game Focus",
+  "modified": "2024-09-30 10:55:33.748644",
+  "name": "Dungeon-crawl",
+  "tag": "Dungeon-crawl"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Rpg Game Focus",
+  "modified": "2024-09-30 11:34:27.269505",
+  "name": "Tactical",
+  "tag": "Tactical"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Rpg Game Focus",
+  "modified": "2024-09-30 10:53:58.616378",
+  "name": "Epic",
+  "tag": "Epic"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Rpg Game Focus",
+  "modified": "2024-09-30 10:54:05.992356",
+  "name": "Action",
+  "tag": "Action"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Rpg Game Focus",
+  "modified": "2024-09-30 10:55:06.928349",
+  "name": "Romance",
+  "tag": "Romance"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Rpg Game Focus",
+  "modified": "2024-09-30 10:55:52.221380",
+  "name": "Intrigue",
+  "tag": "Intrigue"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Rpg Game Focus",
+  "modified": "2024-09-30 10:54:52.969969",
+  "name": "Co-creation",
+  "tag": "Co-creation"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Rpg Game Focus",
+  "modified": "2024-09-27 17:44:48.118781",
+  "name": "Drama",
+  "tag": "Drama"
+ }
+]

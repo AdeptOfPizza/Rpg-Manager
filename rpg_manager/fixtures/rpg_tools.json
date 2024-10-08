@@ -1,0 +1,18 @@
+[
+ {
+  "description": "Popular voice chat with many features and bots. Allows to customize your voice-chat experience like no other tool!",
+  "docstatus": 0,
+  "doctype": "Rpg Tools",
+  "modified": "2024-09-29 13:25:43.915783",
+  "name": "Discord",
+  "tool": "Discord"
+ },
+ {
+  "description": "Bot for Discord. Allows to translate music from any source through him!",
+  "docstatus": 0,
+  "doctype": "Rpg Tools",
+  "modified": "2024-09-29 13:23:08.847877",
+  "name": "KenkuFM",
+  "tool": "KenkuFM"
+ }
+]

@@ -1,0 +1,40 @@
+[
+ {
+  "allow_guest": 0,
+  "api_method": null,
+  "cron_format": null,
+  "disabled": 1,
+  "docstatus": 0,
+  "doctype": "Server Script",
+  "doctype_event": "Before Delete",
+  "enable_rate_limit": 0,
+  "event_frequency": "All",
+  "modified": "2024-10-03 15:39:07.807972",
+  "module": "Rpg Manager",
+  "name": "Before Delete",
+  "rate_limit_count": 5,
+  "rate_limit_seconds": 86400,
+  "reference_doctype": "Rpg Announcement",
+  "script": "frappe.msgprint(f\"Triggered before_delete for {doc.name}\")\n   \nrelated_games = frappe.get_all(\"Rpg Game\", filters={\"announcement\": doc.name}, fields=[\"name\"])\n    \nfrappe.msgprint(f\"Related games found: {len(related_games)}\")",
+  "script_type": "DocType Event"
+ },
+ {
+  "allow_guest": 0,
+  "api_method": null,
+  "cron_format": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Server Script",
+  "doctype_event": "Before Delete",
+  "enable_rate_limit": 0,
+  "event_frequency": "All",
+  "modified": "2024-10-03 15:43:55.890357",
+  "module": "Rpg Manager",
+  "name": "Clearing games",
+  "rate_limit_count": 5,
+  "rate_limit_seconds": 86400,
+  "reference_doctype": "Rpg Announcement",
+  "script": "related_games = frappe.get_all(\"Rpg Game\", filters={\"announcement\": doc.name}, fields=[\"name\"])\n\nfor game in related_games:\n    frappe.delete_doc(\"Rpg Game\", game['name'], force=True)",
+  "script_type": "DocType Event"
+ }
+]

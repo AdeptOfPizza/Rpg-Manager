@@ -5,6 +5,13 @@ app_description = "helps you managing your current games and finding new, suited
 app_email = "prg@gmail.com"
 app_license = "mit"
 
+fixtures = [
+    'Server Script',
+    'Rpg Tools',
+    'Rpg System',
+    'Rpg Game Focus'
+]
+
 # Apps
 # ------------------
 
